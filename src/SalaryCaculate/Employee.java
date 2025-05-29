@@ -7,7 +7,7 @@ public class Employee {
         this.name = name;
     }
 
-    double caculateSalary(){
+    public double caculateSalary(){
         return 0;
     }
 
@@ -18,6 +18,5 @@ public class Employee {
     public String getName() {
         return name;
     }
-
 
 }

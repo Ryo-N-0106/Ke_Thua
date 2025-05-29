@@ -12,7 +12,7 @@ public class ParttimeEmployee extends Employee {
 
     @Override
     public double caculateSalary(){
-        return hoursWorked * hourlyRate;
+        return this.hoursWorked * this.hourlyRate;
     }
 
     @Override
@@ -21,6 +21,6 @@ public class ParttimeEmployee extends Employee {
     }
 
     public int getHoursWorked(){
-        return hoursWorked;
+        return this.hoursWorked;
     }
 }
